@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <edudexDirectory xmlns="http://studieData.nl/schema/edudex/directory"
-                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-                 xsi:schemaLocation="http://studieData.nl/schema/edudex/directory directory.xsd.xml">
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://studieData.nl/schema/edudex/directory http://studieData.nl/schema/edudex/directory.xsd">
     
     <!-- Directory metadata -->
     <editor>Example Editor</editor>
@@ -16,13 +17,13 @@
     <programResource>
         <lastEdited>2025-05-23T13:40:15</lastEdited>
         <programId>43036</programId>
-        <resourceUrl>https://indicia-e-commerce.github.io/Tailor_iT/program_43036.xml</resourceUrl>
+        <resourceUrl>https://indicia-e-commerce.github.io/Tailor_iT/edudex/closed/program_43036.xml</resourceUrl>
     </programResource>
     
     <programResource>
         <lastEdited>2025-04-11T12:53:08</lastEdited>
         <programId>43037</programId>
-        <resourceUrl>https://indicia-e-commerce.github.io/Tailor_iT/program_43037.xml</resourceUrl>
+        <resourceUrl>https://indicia-e-commerce.github.io/Tailor_iT/edudex/closed/program_43037.xml</resourceUrl>
     </programResource>
     
 </edudexDirectory>
