@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edudexDirectory xmlns="http://studieData.nl/schema/edudex/directory"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:schemaLocation="http://studieData.nl/schema/edudex/directory directory.xsd.xml">
+    
+    <!-- Directory metadata -->
+    <editor>Example Editor</editor>
+    <generator>Manual</generator>
+    <version>1.9.1</version>
+    <lastEdited>2025-06-05T10:30:00</lastEdited>
+    
+    <!-- Organization unit identifier -->
+    <orgUnitId>ORG001</orgUnitId>
+    
+    <!-- Program resources -->
+    <programResource>
+        <lastEdited>2025-05-23T13:40:15</lastEdited>
+        <programId>43036</programId>
+        <resourceUrl>program_43036.xml</resourceUrl>
+    </programResource>
+    
+    <programResource>
+        <lastEdited>2025-04-11T12:53:08</lastEdited>
+        <programId>43037</programId>
+        <resourceUrl>program_43037.xml</resourceUrl>
+    </programResource>
+    
+</edudexDirectory>
