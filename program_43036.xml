@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<program xmlns="http://studieData.nl/schema/edudex/program"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://studieData.nl/schema/edudex/program http://studieData.nl/schema/edudex/program">
+    
+    <!-- Basic program metadata -->
+    <editor>Example Editor 1,1</editor>
+    <format>trainingsdata</format>
+    <generator>Manual</generator>
+    <lastEdited>2025-04-11T12:53:08</lastEdited>
+    
+    <!-- Program admission settings -->
+    <programAdmission>
+        <applicationOpen>true</applicationOpen>
+        <applicationType>individual</applicationType>
+        <paymentDue>up-front</paymentDue>
+        <startDateDetermination>fixed starting date</startDateDetermination>
+    </programAdmission>
+    
+    <!-- Program classification -->
+    <programClassification>
+        <degree>certificate</degree>
+        <orgUnitId>ORG001</orgUnitId>
+        <programDuration unit="day">3</programDuration>
+        <programForm>full-time</programForm>
+        <programId>43037</programId>
+        <programLocation>Breda</programLocation>
+        <programLocation>Rotterdam</programLocation>
+        <programLocation>Utrecht</programLocation>
+        <programLocation>Eindhoven</programLocation>
+        <programLocation>Tilburg</programLocation>
+        <programLocation>Amsterdam</programLocation>
+        <programLocation>Antwerpen</programLocation>
+        <programLocation>Zwolle</programLocation>
+        <programLevel>none</programLevel>
+        <programType>training</programType>
+    </programClassification>
+    
+    <!-- Program contacts -->
+    <programContacts>
+        <contactData>
+            <contactName>John Doe</contactName>
+            <email>marketing.indicia@gmail.com</email>
+            <role>Program Coordinator</role>
+        </contactData>
+    </programContacts>
+    
+    <!-- Program curriculum -->
+    <programCurriculum>
+        <instructionLanguage>
+            <languageCode>nl</languageCode>
+            <percentage>60</percentage>
+        </instructionLanguage>
+        <instructionLanguage>
+            <languageCode>en</languageCode>
+            <percentage>40</percentage>
+        </instructionLanguage>
+        <instructionMode>classroom teaching</instructionMode>
+    </programCurriculum>
+    
+    <!-- Program descriptions -->
+    <programDescriptions>
+        <programName xml:lang="nl">Business Analysis Body of Knowledge (BABOK® 3) Foundation Training</programName>
+        <programSummaryText xml:lang="nl">Het doel van deze training is dat je leert hoe je bedrijfsprocessen, met behulp van de modelleringstaal Business Process Modelling and Notation (BPMN), kunt modelleren.</programSummaryText>
+        <programDescriptionText xml:lang="nl">Het doel van deze training is dat je leert hoe je bedrijfsprocessen, met behulp van de modelleringstaal Business Process Modelling and Notation (BPMN), kunt modelleren.</programDescriptionText>
+    </programDescriptions>
+    
+    <!-- Program schedule -->
+    <programSchedule>
+        <programRun>
+            <id>RUN001</id>
+            <status>application opened</status>
+            <startDate isFinal="true">2025-01-13</startDate>
+            <endDate isFinal="true">2025-01-15</endDate>
+            <courseDay>
+                <id>DAY001</id>
+                <date>2025-01-13</date>
+                <name xml:lang="nl">Dag 1</n>
+            </courseDay>
+            <courseDay>
+                <id>DAY002</id>
+                <date>2025-01-14</date>
+                <name xml:lang="nl">Dag 2</n>
+            </courseDay>
+            <courseDay>
+                <id>DAY003</id>
+                <date>2025-01-15</date>
+                <name xml:lang="nl">Dag 3</n>
+            </courseDay>
+        </programRun>
+    </programSchedule>
+    
+</program>
